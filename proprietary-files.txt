@@ -700,7 +700,7 @@ odm/lib64/libtriplecam_image_optical_zoom.so
 odm/lib64/libtriplecam_optical_zoom_control.so
 odm/lib64/libtriplecam_video_optical_zoom.so
 odm/lib64/libwatermark_photo.so
-odm/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so
+odm/lib64/vendor.oplus.hardware.cameraextension-V1-service-impl.so
 odm/lib64/vendor.oplus.hardware.orms@1.0.so
 odm/lib64/vendor.oplus.hardware.osense.client@1.0.so
 odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk_platform.so
@@ -854,7 +854,6 @@ vendor/lib64/libsynx.so
 vendor/lib64/libtfestriping.so
 vendor/lib64/libthreadutils.so
 vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
-vendor/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
 # Camera firmware
@@ -872,8 +871,6 @@ odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc
 odm/etc/vintf/manifest/manifest_oplus_fingerprint.xml
 odm/lib64/anc.hal.so
 odm/lib64/libolc_vnd.so
-odm/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so
-odm/lib64/vendor.oplus.hardware.performance-V1-ndk_platform.so
 odm/vendor/firmware/ancap64.b00
 odm/vendor/firmware/ancap64.b01
 odm/vendor/firmware/ancap64.b02
@@ -883,6 +880,15 @@ odm/vendor/firmware/ancap64.b05
 odm/vendor/firmware/ancap64.b06
 odm/vendor/firmware/ancap64.b07
 odm/vendor/firmware/ancap64.mdt
+odm/vendor/firmware/goodixfp.b00
+odm/vendor/firmware/goodixfp.b01
+odm/vendor/firmware/goodixfp.b02
+odm/vendor/firmware/goodixfp.b03
+odm/vendor/firmware/goodixfp.b04
+odm/vendor/firmware/goodixfp.b05
+odm/vendor/firmware/goodixfp.b06
+odm/vendor/firmware/goodixfp.b07
+odm/vendor/firmware/goodixfp.mdt
 
 # Graphics (Adreno firmware)
 vendor/firmware/a660_gmu.bin
